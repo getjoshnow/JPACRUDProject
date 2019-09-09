@@ -1,0 +1,12 @@
+alias enthu='java -jar ~/SD/Java/OCP/etsviewer.jar &'
+
+
+alias ec2="ssh -i ~/.ssh/aws.pem ec2-user@3.17.100.250"
+
+alias sdvid="mysql -u root -p < ~/SD/SQL/sdvid.sql"
+
+alias root="mysql -u root -p sdvid"
+
+alias student="mysql -u root -p sdvid"
+
+alias push="git push origin master"
