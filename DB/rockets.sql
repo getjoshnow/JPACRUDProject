@@ -23,10 +23,10 @@ DROP TABLE IF EXISTS `rockets` ;
 CREATE TABLE IF NOT EXISTS `rockets` (
   `idrockets` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NOT NULL,
-  `height` INT NOT NULL,
-  `thrust` INT NOT NULL,
-  `engines` INT NOT NULL,
-  `company` VARCHAR(45) NOT NULL,
+  `height` INT NULL,
+  `thrust` INT NULL,
+  `engines` INT NULL,
+  `company` VARCHAR(45) NULL,
   PRIMARY KEY (`idrockets`))
 ENGINE = InnoDB;
 
