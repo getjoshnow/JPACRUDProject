@@ -1,4 +1,4 @@
-# Rocket Database JPACRUDProject
+# Rocket Database
 
 ### JPACRUDProject
 ### Welcome
